@@ -1,0 +1,22 @@
+#+TITLE:     Writing Beamer presentations in org-mode
+#+AUTHOR:    Axel Hanikel
+#+EMAIL:     ahanikel@adobe.com
+#+DATE:      <2019-11-01 Fri>
+#+OPTIONS: toc:nil
+
+* Slide 1
+** Section 1
+   Some text
+   - an item
+   - another item
+** Section 2
+   Some text
+   - an item
+   - another item
+* Slide 2
+** Section 3
+   Some text
+   - an item
+   - another item
+   #+ATTR_LATEX: :width 0.4\textwidth
+   [[./diagram1.pdf]]
